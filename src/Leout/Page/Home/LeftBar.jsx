@@ -19,7 +19,7 @@ const LeftBar = () => {
             <h1>All Caterogy</h1>
             <div>
                 {
-                    catData.map(catgory => <NavLink to={``}
+                    catData.map(catgory => <NavLink to={`/home/${catgory.id}`}
                         key={catgory.id}
                         className='block text-2xl ml-3'
                         >

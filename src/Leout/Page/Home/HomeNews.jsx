@@ -1,13 +1,13 @@
+import { Outlet } from "react-router-dom";
 
 
-import { Outlet } from 'react-router-dom';
-import Medule from './Medule';
+
 
 const HomeNews = () => {
     return (
         <div>
-           
-            {/* <Medule></Medule> */}
+           <h3>Helloooooooooooooooo</h3>
+
           <Outlet></Outlet>
         </div>
     );

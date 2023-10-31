@@ -5,7 +5,7 @@ import Nav from "../nav/Nav";
 import LeftBar from "./LeftBar";
 
 import Right from "./Right";
-import HomeNews from "./HomeNews";
+import { Outlet } from "react-router-dom";
 
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
                 <LeftBar></LeftBar>
             </div>
             <div className="col-span-2">
-               <HomeNews></HomeNews>
+               <Outlet></Outlet>
                 
             </div>
             <div>
